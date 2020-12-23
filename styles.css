@@ -1,0 +1,58 @@
+body {
+    background-color: powderblue;
+}
+a:hover {
+    font-size: 30px;
+    text-decoration: black;
+}
+.mlpg {
+    background-color: dodgerblue;
+    font-size: 3px;
+}
+h1{
+    text-align: center;
+}
+.c1 {
+    background-color: gold;
+    font-size: 30px;
+}
+.high {
+    background-color: darkblue;
+    font-size: 40px;
+    color: greenyellow; 
+}
+.high2 {
+    font-size: 40px;
+}
+.c2 {
+    background-color: darksalmon;
+    font-size: 30px;
+}
+.c3 {
+    font-size: 30px;
+}
+.p1 {
+    font-size: 20px;
+}
+.c4 {
+    font-size: 18px;
+    background-color: pink;
+}
+.highlight {
+    background-color: palegoldenrod;
+}
+.size {
+   padding: 50px;
+   background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 130%);
+}
+.align {
+    text-align: center;
+}
+.size2 {
+    padding: 50px;
+    background: linear-gradient(to bottom, #ff99cc 0%, #33ccff 120%);
+ }
+ .c5 {
+    text-decoration: black;
+ }
+ 
