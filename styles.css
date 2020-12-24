@@ -15,6 +15,7 @@ h1{
 .c1 {
     color: #107772;
     font-size: 30px;
+    padding: 0%;
 }
 .high {
     font-size: 40px;
@@ -27,6 +28,7 @@ h1{
 .c2 {
     color: #107772 ;
     font-size: 30px;
+    padding: 0%;
 }
 .c3 {
     font-size: 30px;
@@ -42,15 +44,14 @@ h1{
     background-color: palegoldenrod;
 }
 .size {
-   padding: 30px;
+   padding: 0 30px 0 30px ; 
    
 }
 .align {
     text-align: center;
 }
 .size2 {
-    padding: 30px;
-   
+    padding: 0 30px 0 30px;  
  }
  .c5 {
     text-decoration: black;
@@ -63,7 +64,7 @@ h1{
      display: flex;
      justify-content: flex-end;
      flex-wrap: wrap;
-
+ }
  #id1 {
      font-size: 20px;   
  }
@@ -78,6 +79,5 @@ h1{
     
 }
 .border {
-    border: crimson 2px solid;
-    background-color: darkblue;
+    border: crimson 5px solid;
 }
