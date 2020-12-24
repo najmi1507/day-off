@@ -76,8 +76,15 @@ h1{
 #flexfroggy4 {
     display: flex;
     justify-content: flex-end;
+}
+.flexfroggy5 {
+    border: darkorchid 6px solid;
     
 }
 .border {
     border: crimson 5px solid;
+}
+.flex1 {
+    display: flex;
+    flex-direction: row;
 }
