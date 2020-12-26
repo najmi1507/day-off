@@ -147,15 +147,15 @@ h1{
     .show:focus + .hide + #cont {display: block;}
 
 .choco1 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     color: chocolate;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
-#choco2 {
+.choco2 {
     font-size: 20px;
-    color: #8b4513;
+    color: black;
 }
 .choco3 {
     background-color: palegoldenrod;
@@ -167,6 +167,10 @@ h1{
     font-weight: bold;
 }
 .choco5 {
+    font-size: 20px;
+}
+#choco6 {
+    color: black;
     font-size: 20px;
 }
 
