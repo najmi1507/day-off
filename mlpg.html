@@ -43,7 +43,7 @@
     background-color: #f5ceb3;
   }
 }
-           
+
 
             </style>
     </head>
@@ -95,7 +95,7 @@
 </div>
        <br>
     
-         <div>
+         <div id="flexfroggy4">
             <img class="flexfroggy5" src="choco-whip.jpg" alt="Milk Chocolate" width="150" height="90">
         
             <img class="flexfroggy5" src="choco-egg.jpg" alt="Milk Chocolate" width="150" height="90">
@@ -111,6 +111,7 @@
              <img class="flexfroggy5" src="choco-heart.jpg" alt="Milk Chocolate" width="150" height="90">
             
         </div>
+   <br>
    <br>
 
 
@@ -208,12 +209,102 @@
 <br>
 <br>
 
+<div class="choco1">
+    What is tempering in chocolate?
+</div>
+<br>
+<div id="choco2">
+    <a href="#show" class="show"> Read more...</a> / 
+    <a href="#hide" class="hide"> Read less...</a>
+    <span id="cont">
+    Tempering chocolate is an essential step for making <span class="choco3"> smooth, glossy finish </span>, to keep chocolate from easily melting on your fingers by heating and cooling the chocolate. After pouring the liquid chocolate on a cool surface (professional chocolate shops uses marble), use a bench scraper to spread the chocolate. Move it to the center of your surface, clean the scraper with the spatula, and spread continuously. Continue this spreading and scraping process until the chocolate cools to: 82° F (dark), 80° F (milk), 78°F (white). The chocolate will lose its shine and form a thick paste with a dull matte finish. Work quickly so that the chocolate does not lump. This process can take anywhere from 2 to 10 minutes.
+</div>
+<br>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sGlMoNs4qlM?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</span>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
+<div class="flex5"> 
+    <img class="flex6" src="emoji.jpg" alt="emoji" width="100" height="100">
+<div class="slideshow-container">
 
+    <div class="mySlides fade">
+      <div class="choco4" class="numbertext">My Favourite Chocolates</div>
+      <img class="flexfroggy6" src="milka.jpg" style="width:50%">
+      <div class="choco5" class="text">Milka</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="choco4" class="numbertext">My Favourite Chocolate</div>
+      <img class="flexfroggy6" src="godiva.jpg" style="width:50%">
+      <div class="choco5" class="text">Godiva</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="choco4" class="numbertext"> My Favourite Chocolate</div>
+        <img class="flexfroggy6" src="lindt.jpg" style="width:60%">
+        <div class="choco5" class="text">Lindt</div>
+      </div>
 
-
-
-
+      <div class="mySlides fade">
+        <div class="choco4" class="numbertext">My Favourite Chocolate</div>
+        <img class="flexfroggy6" src="jewels.jpg" style="width:60%">
+        <div class="choco5" class="text">Jewels</div>
+      </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    <img class="flex7" src="emoji.jpg" alt="emoji" width="100" height="100">
+    
+    </div>
+<br>
+<br>
+<br>
 
 
 
